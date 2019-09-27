@@ -14,7 +14,7 @@ public class Market {
         try {
             try {
                 // адрес - локальный хост, порт - 4004, такой же как у сервера
-                clientSocket = new Socket("localhost", 5013); // этой строкой мы запрашиваем
+                clientSocket = new Socket("localhost", 5001); // этой строкой мы запрашиваем
                 //  у сервера доступ на соединение
                 reader = new BufferedReader(new InputStreamReader(System.in));
                 // читать соообщения с сервера

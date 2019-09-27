@@ -23,7 +23,7 @@ public class Router {
         try {
             String word = "";
             try  {
-                server1 = new ServerSocket(5012);
+                server1 = new ServerSocket(5000);
                 System.out.println("Server: started");
                 clientSocket1 = server1.accept();
                 try { 
@@ -66,7 +66,7 @@ Thread listener5001 = new Thread(){
 try {
     String word = "";
     try  {
-        server2 = new ServerSocket(5013);
+        server2 = new ServerSocket(5001);
         System.out.println("Server: started");
         clientSocket2 = server2.accept();
         try { 
